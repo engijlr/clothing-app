@@ -3,14 +3,14 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./routes/Home";
 import Navbar from "./routes/Navbar";
-import SignIn from "./routes/Sign-in";
+import Authentication from "./routes/Authentication";
 
 const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Navbar />}>
         <Route index element={<Home />} />
-        <Route path="sign-in" element={<SignIn />} />
+        <Route path="auth" element={<Authentication />} />
       </Route>
     </Routes>
   );
