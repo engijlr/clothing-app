@@ -12,6 +12,10 @@
   z-index: 5;
 }
 
+.cart-dropdown-container .empty-message {
+  font-size: 18px;
+  margin: 50px auto;
+}
 .cart-dropdown-container .cart-items {
   height: 240px;
   display: flex;
@@ -19,6 +23,6 @@
   overflow: scroll;
 }
 
-.cart-dropdown-container button {
+.cart-dropdown-container Button {
   margin-top: auto;
 }
